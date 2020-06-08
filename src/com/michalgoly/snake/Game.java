@@ -1,6 +1,6 @@
 package com.michalgoly.snake;
 
-/**
+/*
  This class is responsible for running the game, or indeed making the
  snake move. 
  
@@ -17,10 +17,8 @@ public class Game implements Runnable {
 	private Apple apple;
 	
 	/**
-	 Constructs a new runnable Game object which can be used to create
-	 a Thread. 
-	 param gameField The rectangular area where snake can move
-	 param snake The snake object
+	 Constructs a new runnable Game object which can be used to create a Thread. 
+	 param gameField The rectangular area where snake can move param snake The snake object
 	 param frame The frame which will be notified when the game is over
 	 */
 	public Game(GameField gameField, Snake snake, SnakeFrame frame) {
